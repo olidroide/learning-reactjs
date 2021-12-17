@@ -1,13 +1,12 @@
 /*import './App.css';*/
 
-import Game from "./components/Game";
 import React from "react";
+import {TodoApp} from "./components/TodoApp";
 
 const App = () => {
     return (
-        <Game>
-
-        </Game>
-    )};
+        <TodoApp/>
+    )
+};
 
 export default App;
