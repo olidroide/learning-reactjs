@@ -2,10 +2,13 @@
 
 import React from "react";
 import {TodoApp} from "./components/TodoApp";
+import {ProvideTodo} from "./providers/use-todo";
 
 const App = () => {
     return (
-        <TodoApp/>
+        <ProvideTodo>
+            <TodoApp/>
+        </ProvideTodo>
     )
 };
 

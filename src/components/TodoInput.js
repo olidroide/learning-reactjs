@@ -16,7 +16,7 @@ export const TodoInput = ({handleOnClickAddTodo}) => {
 
     return (
         <React.Fragment>
-            <input ref={todoInputValueRef} type="text" placeholder="Inset Todo" />
+            <input ref={todoInputValueRef} type="text" placeholder="Insert Todo" />
             <button onClick={onClickAdd}>➕</button>
         </React.Fragment>
     )
