@@ -10,8 +10,8 @@ const App = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<ProvideTodo><TodoApp/></ProvideTodo>} />
-                <Route path="/tictactoe" element={<Game/>} />
+                <Route path="/" element={<ProvideTodo><TodoApp/></ProvideTodo>}/>
+                <Route path="/tictactoe" element={<Game/>}/>
             </Routes>
         </BrowserRouter>
     )
